@@ -15,7 +15,7 @@ A Python-based automation tool for downloading and uploading Instagram reels. Th
 ## Prerequisites
 
 - Python 3.7 or higher
-- FFmpeg installed on your system
+- FFmpeg installed on your system (for video processing, must be available in your PATH)
 - Instagram account credentials
 
 ## Installation
@@ -67,9 +67,6 @@ You can modify the following variables in `main.py`:
 
 - instagrapi: Instagram API wrapper
 - opencv-python: Video processing
-- numpy: Numerical operations
 - colorama: Colored console output
-- tqdm: Progress bars
 - dotenv: Environment variable management
-- Pillow: Image processing
-- requests: HTTP requests
+- instaloader: Instagram content downloader

@@ -3,17 +3,11 @@ from instagrapi import Client
 import time
 from pathlib import Path
 import cv2
-import numpy as np
-import json
 from datetime import datetime, timedelta
 import instaloader
-import getpass
 import shutil
-import ffmpeg
-import subprocess
 import sys
 from colorama import init, Fore, Style
-import tqdm
 import dotenv
 
 # Load environment variables
